@@ -210,7 +210,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .minimal-opacity{opacity: 0.9}
 .mouse-hover:hover{box-shadow:t0 50px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
 #skill-list { width:400px; }
-#skill-list ol {font-style:italic;font-size:24px;}
+#skill-list ol {font-style:italic;font-size:24px;text-align: justify;}
 #skill-list ol li { }
 #skill-list ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; border-left: 1px solid #999; }
 #skill-list ol li p em strong{ display:block; font-size:25px;}
