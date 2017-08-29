@@ -3,9 +3,11 @@
   <title>Reuben Lim | Web &amp; App Developer </title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/Users/reubenlim/Ben-Website/mySite/myStyle.css">
-  <link rel="stylesheet" href="/Users/reubenlim/Ben-Website/mySite/myFont.css">
-  <link rel="stylesheet" href="/Users/reubenlim/Ben-Website/mySite/coolFont.css">
+  <link rel="stylesheet" href="myStyle.css">
+  <link rel="stylesheet" href="myFont.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="lib/typed.js"></script>  
   <style>
@@ -26,19 +28,19 @@
 
     /* First image (Logo. Full height) */
     .bgimg-1 {
-      background-image: url('/Users/reubenlim/Ben-Website/mySite/assets/golden-gate-bridge-min2.jpg');
+      background-image: url('assets/golden-gate-bridge-min2.jpg');
       min-height: 100%;
     }
 
     /* Second image (Portfolio) */
     .bgimg-2 {
-      background-image: url("/Users/reubenlim/Ben-Website/mySite/assets/macbook-min2.jpg");
+      background-image: url("assets/macbook-min2.jpg");
       min-height: 400px;
     }
 
     /* Third image (Contact) */
     .bgimg-3 {
-      background-image: url("/Users/reubenlim/Ben-Website/mySite/assets/florist-min2.jpg");
+      background-image: url("assets/florist-min2.jpg");
       min-height: 400px;
     }
 
@@ -64,8 +66,6 @@
         <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
         <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
         <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-          <i class="fa fa-search"></i>
         </a>
       </div>
 
@@ -121,7 +121,7 @@
       <h3 style="padding-left:40px;">My Current Skill Set</h3>
       <div id="skill-list">
        <ol>
-         <li><p><em><strong>iOS Development</strong></em> Fluent in Objective-C and Swift. Principle understanding of MVC, experienced working with UIKit, Auto Layout, Cocoa Touch, Core Data, Table Views, Collection Views, Parsing JSON, Firebase, Firebase Analytics, Xib's, Storyboards, segues, debugging with X-Code, Core location, UIMap Kit, Wireframing, Cocoa-Pods and much more! </p></li>
+         <li><p><em><strong>iOS Development</strong></em> Fluent with Objective-C and Swift. Principle understanding of MVC, experienced working with UIKit, Auto Layout, Cocoa Touch, Core Data, Table Views, Collection Views, Parsing JSON, Firebase, Firebase Analytics, Xib's, Storyboards, segues, debugging with X-Code, Core location, UIMap Kit, Wireframing, Cocoa-Pods and much more! </p></li>
          <li><p><em><strong>Front-end Web Development</strong></em>Fundemental understanding with HTML5, CSS3, Javascript, jQuery, AngularJS, tailoring UX/UI, Version Control, Optimizing Web Performance and Responsive Web Design.</p></li>
          <li><p><em><strong>Analytics</strong></em>Systematic understanding of different types of data structures with the ability to identify key indicators, capable of building different types of predictable models/campaigns. Experienced with data tracking using Google Analytics, Google AdWords, Facebook Analytics and Amplitude. </p></li>
        </ol>
@@ -232,21 +232,22 @@
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <p class="w3-center"><em>I am currently working for Bloomthis as their developer, do check them out <a href="https://bloomthis.co" target="_blank">here!</a></em></p>
+
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
       <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+      <div id="googleMap" class="w3-round-large" style="width:100%;height:400px;"></div>
+
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Menara Glomac<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: contact@reubenlim.com<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
+      <p>I would love to get to know you better! Drop me a message here.</p>
+      <form method="post" action="form_process.php">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -270,28 +271,29 @@
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-github w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
-</footer>
+<!--   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
+ --></footer>
 
 <!-- Add Google Maps -->
 <script>
   function myMap()
   {
-    myCenter=new google.maps.LatLng(41.878114, -87.629798);
+    myCenter=new google.maps.LatLng(3.1352213,101.629905);
     var mapOptions= {
       center:myCenter,
-      zoom:12, scrollwheel: false, draggable: false,
+      zoom:17,
       mapTypeId:google.maps.MapTypeId.ROADMAP
     };
     var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
     var marker = new google.maps.Marker({
       position: myCenter,
+      animation: google.maps.Animation.BOUNCE
+
+
     });
     marker.setMap(map);
   }
@@ -325,11 +327,8 @@ function toggleFunction() {
   }
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABnM9IvL0zNvSatk2U4gVC4uXDwI-Auv0&callback=myMap"></script>
+
 
 </body>
 </html>
