@@ -216,3 +216,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #skill-list ol li p em strong{ display:block; font-size:25px;}
 #about-me {text-align: justify;}
 .fa {font-size:30px;}
+.project-padding>.w3-col{padding: 30 30px;}
+.typed-font-size {font-size: 5.9vw;}
