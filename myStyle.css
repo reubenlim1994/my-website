@@ -218,3 +218,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fa {font-size:30px;}
 .project-padding>.w3-col{padding: 30 30px;}
 .typed-font-size {font-size: 5.9vw;}
+.align-typed {min-width: 300px;font-size:30px; text-align:center;}
